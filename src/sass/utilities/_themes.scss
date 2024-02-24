@@ -1,0 +1,45 @@
+@font-face {
+   font-family: 'inter-regular';
+   src: url('../src/fonts/Inter-Regular.woff2') format('woff2'),
+       url('../src/fonts/Inter-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'inter-medium';
+   src: url('../src/fonts/Inter-Medium.woff2') format('woff2'),
+       url('../src/fonts/Inter-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+	font-family: 'poppins-medium';
+	src: url('../src/fonts/poppins-medium-webfont.woff2') format('woff2'),
+		url('../src/fonts/poppins-medium-webfont.woff') format('woff');
+	font-weight: medium;
+	font-style: normal;
+	font-display: swap;
+}   
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../src/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../src/fonts/Poppins-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'poppins-semi-bold';
+	src: url('../src/fonts/poppins-semibold-webfont.woff2') format('woff2'),
+		url('../src/fonts/poppins-semibold-webfont.woff') format('woff');
+	font-weight: 700;   
+	font-style: normal;
+	font-display: swap;
+}

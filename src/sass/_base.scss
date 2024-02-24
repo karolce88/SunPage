@@ -1,0 +1,59 @@
+@use 'utilities/variables' as *;
+@use 'utilities/mixins' as *;
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1360px;
+}
+
+@media (max-width: 1368px) {
+	.menu, .main {
+		margin: 0 14px;
+	}
+}
+
+.btn {
+	color: white;
+	border-radius: 4px;
+	border: none;
+	padding: 16px 32px;
+	cursor: pointer;
+	background-color: $primary600;
+	@include action1;
+	transition: all .15s ease-out;
+
+	&:hover {
+		background-color: $primary700;
+	}
+
+	&--medium {
+		padding: 14px 24px;
+		@include action1;
+	}
+
+	&--secondary {
+		border: 2px solid $primary600;
+		background-color: $primary50;
+		color: $primary600;
+		@include action1;
+
+		&:hover {
+			background-color: #fff;
+		}
+	}
+}

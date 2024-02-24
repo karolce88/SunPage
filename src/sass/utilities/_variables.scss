@@ -1,0 +1,31 @@
+@forward 'themes';
+
+// Typography:
+$main-font-regular: 'inter-regular', sans-serif;
+$main-font-medium: 'inter-medium', sans-serif;
+$second-font-medium: 'poppins-medium', sans-serif;
+$second-font-regular: 'poppins-regular', sans-serif;
+$second-font-semi-bold: 'poppins-semi-bold', sans-serif;
+
+// Colors:
+$white: #ffffff;
+$primary50: #f7f9ff;
+$primary100: #e5eeff;
+$primary200: #d2e1ff;
+$primary500: #8db3ff;
+$primary600: #6e9eff;
+$primary700: #5086f2;
+$primary800: #3f69bf;
+
+$grey50: #f9f9fa;
+$grey100: #ecedf0;
+$grey200: #dee1e6;
+$grey300: #cfd3db;
+$grey500: #adb3c0;
+$grey600: #9ba0ac;
+$grey700: #858993;
+$grey800: #696c74;
+$grey900: #242529;
+
+$red: #c90d0d;
+$green: #329f32;
