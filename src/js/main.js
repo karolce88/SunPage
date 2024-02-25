@@ -1,4 +1,5 @@
 addEventListener('DOMContentLoaded', () => {
+	// nav anim:
 	const nav = document.querySelector('.JSnav')
 	if (nav) {
 		const navBtn = document.querySelector('.JSnavBtn')
@@ -21,10 +22,14 @@ addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
+	// footer year:
 
-
-
-
+	const footerYear = document.querySelector('.JSfooterYear')
+	const handleCurrentYear = () => {
+		const year = new Date().getFullYear()
+		footerYear.innerText = year
+	}
+	handleCurrentYear()
 
 
 
