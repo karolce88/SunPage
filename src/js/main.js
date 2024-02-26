@@ -1,5 +1,8 @@
 addEventListener('DOMContentLoaded', () => {
+
+
 	// nav anim:
+
 	const nav = document.querySelector('.JSnav')
 	if (nav) {
 		const navBtn = document.querySelector('.JSnavBtn')
@@ -22,6 +25,7 @@ addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
+
 	// footer year:
 
 	const footerYear = document.querySelector('.JSfooterYear')
@@ -32,6 +36,27 @@ addEventListener('DOMContentLoaded', () => {
 	handleCurrentYear()
 
 
+   // contact form - styling:
+
+   const inputsContactForm = document.querySelectorAll('.JSinputs')
+
+   inputsContactForm.forEach(item => {
+
+      item.addEventListener('focus', () => {
+         item.parentElement.classList.add('contact__form-box--active')
+         item.nextElementSibling.classList.add('contact__label--active')
+      })
+
+      item.addEventListener('focusout', () => {
+         if (item.value.length <= 0) {
+            item.parentElement.classList.remove('contact__form-box--active')
+            item.nextElementSibling.classList.remove('contact__label--active')
+         }
+      });
+   })
+
+
+  // contact form - validation:
 
 
 
@@ -40,6 +65,12 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-   
+
+
+
+
+
+
+
 	//end
 })
