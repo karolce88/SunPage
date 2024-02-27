@@ -5,13 +5,14 @@
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1360px;
+	padding: 0 14px;
 }
 
-@media (max-width: 1420px) {
-	.menu-margin, .main, .footer {
-		margin: 0 14px;
-	}
-}
+// @media (max-width: 1420px) {
+// 	.menu-margin, .main, .footer {
+// 		padding: 0 14px;
+// 	}
+// }
 
 .btn {
 	color: white;
@@ -46,4 +47,8 @@
 			background-color: $primary50;
 		}
 	}
+}
+
+.overflow-hidden {
+	overflow-y: hidden;
 }

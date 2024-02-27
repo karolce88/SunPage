@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Opis zawartości strony, zawierający ważne słowa kluczowe.">
+    <meta name="keywords" content="słowa kluczowe, związane, z, treścią, strony">
+    <meta name="robots" content="index, follow">
     <title>SunPage</title>
-    <link rel="stylesheet" href="/dist/css/main.min.css">
+    <link rel="stylesheet" href="dist/css/main.min.css">
 </head>
 
 <body>
@@ -16,7 +19,7 @@
            <div class="menu menu-margin">
                <div class="menu__logo">
                    <a href="/" class="menu__logo-link">
-                       <svg width="100" height="22" viewBox="0 0 100 22" fill="none"
+                       <svg class="JSlogo" width="100" height="22" viewBox="0 0 100 22" fill="none"
                            xmlns="http://www.w3.org/2000/svg">
                            <path
                                d="M13.665 1.77669C11.5664 0.52466 9.62277 0 7.28564 0C3.73225 0 0.631979 1.81247 0.631979 5.29431C0.631979 8.31112 2.77832 9.61084 5.72358 10.0759L6.78483 10.2428C9.11003 10.6125 10.3263 11.0417 10.3263 12.1984C10.3263 13.4862 8.8954 14.2136 7.04716 14.2136C4.90082 14.2136 2.93333 13.3789 1.729 12.413L0 15.0959C1.78862 16.5388 4.50732 17.2781 7.03523 17.2781C10.6244 17.2781 13.8678 15.5252 13.8678 11.8407C13.8678 8.93117 11.5306 7.65529 8.5496 7.1664L7.60759 7.01139C5.60434 6.67751 4.16152 6.30786 4.16152 5.07968C4.16152 3.81572 5.4851 3.07642 7.35719 3.07642C9.18158 3.07642 10.7794 3.68455 12.0911 4.49539L13.665 1.77669Z"
@@ -42,7 +45,11 @@
                        </svg>
                    </a>
                </div>
-               <div class="menu__box">
+               <div class="menu__btn JSburgerBTN">
+                <svg class="menu__btn-svg JSburgerSvg" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg>
+                <svg class="menu__btn-svg-x JSburgerSvgX" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+               </div>
+               <div class="menu__box JSmobileMenu">
                    <a href="#o-nas" class="menu__items">
                        <p class="menu__item">O nas</p>
                    </a>
@@ -146,11 +153,11 @@
                         <button class="btn">Skontaktuj się z nami</button>
                     </a>
                 </div>
-                <img loading="lazy" class="offer__img" src="../dist/img/offer1.jpg"
+                <img loading="lazy" class="offer__img" src="dist/img/offer1.jpg"
                     alt="Kobiety w biurze patrzące na monitor komputera">
             </div>
             <div class="offer__container">
-                <img loading="lazy" class="offer__img" src="../dist/img/offer2.jpg"
+                <img loading="lazy" class="offer__img" src="dist/img/offer2.jpg"
                     alt="Kobiety w biurze patrzące na monitor komputera">
                 <div class="offer__box">
                     <p class="offer__overline">Overline</p>
@@ -174,7 +181,7 @@
                         <button class="btn">Skontaktuj się z nami</button>
                     </a>
                 </div>
-                <img loading="lazy" class="offer__img" src="../dist/img/offer3.jpg"
+                <img loading="lazy" class="offer__img" src="dist/img/offer3.jpg"
                     alt="Kobiety w biurze patrzące na monitor komputera">
             </div>
         </section>
@@ -247,8 +254,10 @@
                 </div>
                 <div class="blog__container">
                     <div class="blog__box">
-                        <img loading="lazy" class="blog__img" src="dist/img/blog1.jpg"
+                        <a href="#" class="blog__img-link">
+                            <img loading="lazy" class="blog__img JSblog" src="dist/img/blog1.jpg"
                             alt="Blog - zebranie w sali konferencyjnej - SunPage">
+                        </a>
                         <p class="blog__category-name">Kategoria</p>
                         <a href="#" class="blog__link">
                             <h6 class="blog__h6-title">Intrygujący tytuł artykułu do przeczytania przez użytkownika
@@ -267,8 +276,10 @@
                         </div>
                     </div>
                     <div class="blog__box">
-                        <img loading="lazy" class="blog__img" src="dist/img/blog2.jpg"
+                        <a href="#" class="blog__img-link">
+                            <img loading="lazy" class="blog__img JSblog" src="dist/img/blog2.jpg"
                             alt="Blog - pracujący team - SunPage">
+                        </a>
                         <p class="blog__category-name">Kategoria</p>
                         <a href="#" class="blog__link">
                             <h6 class="blog__h6-title">Intrygujący tytuł artykułu do przeczytania przez użytkownika
@@ -287,8 +298,10 @@
                         </div>
                     </div>
                     <div class="blog__box">
-                        <img loading="lazy" class="blog__img" src="dist/img/blog3.jpg"
+                        <a href="#" class="blog__img-link">
+                            <img loading="lazy" class="blog__img JSblog" src="dist/img/blog3.jpg"
                             alt="Blog - biuro openspace - SunPage">
+                        </a>
                         <p class="blog__category-name">Kategoria</p>
                         <a href="#" class="blog__link">
                             <h6 class="blog__h6-title">Intrygujący tytuł artykułu do przeczytania przez użytkownika
@@ -327,65 +340,72 @@
     </section>
     <div class="wrapper">
         <section class="contact" id="kontakt">
-
             <div class="contact__container">
-
                 <div class="contact__box">
                     <h3 class="contact__h3-title">Napisz do nas</h3>
-
-
                     <form action="" class="contact__form JScontactForm">
                         <div class="contact__form-grid">
+                            <div class="contact__form-item">
                                 <div class="contact__form-box">
                                     <input type="text" id="name"
-                                    class="contact__data-inputs JSinputs contact__data-inputs--input">
+                                        class="contact__data-inputs JSinputs contact__data-inputs--input">
                                     <label for="name" class="contact__label">Imię</label>
                                 </div>
+                                <p class="contact__error">Imię jest wymagane.</p>
+                            </div>
+                            <div class="contact__form-item">
                                 <div class="contact__form-box">
                                     <input type="text" id="surname"
-                                    class="contact__data-inputs JSinputs contact__data-inputs--input">
+                                        class="contact__data-inputs JSinputs contact__data-inputs--input">
                                     <label for="surname" class="contact__label">Nazwisko</label>
                                 </div>
+                                <p class="contact__error">Nazwisko jest wymagane.</p>
+                            </div>
+                            <div class="contact__form-item">
                                 <div class="contact__form-box">
                                     <input type="text" id="email"
-                                    class="contact__data-inputs JSinputs contact__data-inputs--input">
+                                        class="contact__data-inputs JSinputs contact__data-inputs--input">
                                     <label for="email" class="contact__label">Adres e-mail</label>
                                 </div>
+                                <p class="contact__error">Adres e-mail jest wymagany.</p>
+                            </div>
+                            <div class="contact__form-item">
                                 <div class="contact__form-box">
                                     <input type="text" id="phone"
-                                    class="contact__data-inputs JSinputs contact__data-inputs--input">
+                                        class="contact__data-inputs JSinputs contact__data-inputs--input">
                                     <label for="phone" class="contact__label">Numer telefonu</label>
                                 </div>
+                                <p class="contact__error">Numer telefonu jest wymagany.
+                                </p>
+                            </div>
                         </div>
-
-
-                        <div class="contact__form-box contact__form-box--textarea-box">
-                            <textarea type="text" id="message"
-                            class="contact__data-inputs JSinputs contact__data-inputs--textarea"></textarea>
-                            <label for="message" class="contact__label">Twoja wiadomość</label>
+                        <div class="contact__form-item">
+                            <div class="contact__form-box contact__form-box--textarea-box">
+                                <textarea type="text" id="message"
+                                    class="contact__data-inputs JSinputs contact__data-inputs--textarea"></textarea>
+                                <label for="message" class="contact__label">Twoja wiadomość</label>
+                            </div>
+                            <p class="contact__error contact__error--textarea">To pole jest wymagane.</p>
                         </div>
-
-
-
                         <div class="contact__checkbox-container">
                             <div class="contact__checkbox-box">
                                 <div class="contact__checkbox-ring">
-                                    <input checked type="checkbox" class="contact__checkbox">
+                                    <input checked type="checkbox" class="contact__checkbox JScheckbox">
                                 </div>
                             </div>
-                            <p class="contact__checkbox-terms">Zapoznałem się z regulaminem i wyrażam zgodę na
-                                przetwarzanie moich danych osobowych przez <a href="https://sungroup.pl" class="contact__link">Sungroup.pl</a></p>
+                            <p class="contact__checkbox-terms JScheckboxTerms">Zapoznałem się z <a href="#"
+                                    class="contact__link JScheckboxTermsLink">regulaminem</a> i wyrażam
+                                zgodę na
+                                przetwarzanie moich danych osobowych przez Sungroup.pl</p>
                         </div>
                         <div class="contact__button">
-                            <button class="btn">Wyślij wiadomość</button>
+                            <button id="formBtn" class="btn">Wyślij wiadomość</button>
                         </div>
                     </form>
                 </div>
-
-
-                <img src="dist/img/contact.jpg" class="contact__img">
+                <img loading="lazy" src="dist/img/contact.jpg" class="contact__img" alt="Kobieta i mężczyzna">
             </div>
-
+            <p class="contact__success JSsuccess">Wiadomość została wysłana poprawnie!</p>
         </section>
     </div>
 </main>
@@ -435,7 +455,7 @@
    <div class="footer__divider"></div>
    <div class="wrapper">
        <div class="footer__box-bottom">
-           <div class="footer__menu">
+           <div class="footer__menu-mobile">
                <p class="footer__item footer__item--hover-none">&copy; Copyrights <span
                        class="JSfooterYear"></span> <a href="https://sungroup.pl" class="footer__sun-link">Sungroup</a></p>
                <a href="#" class="footer__items">
