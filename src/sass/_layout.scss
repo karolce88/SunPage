@@ -75,7 +75,7 @@
 	}
 
 	&__right {
-		background-image: url('../../dist/img/hero-img.png');
+		background-image: url('../../dist/img/hero-img.jpg');
 		background-position: center;
 		background-size: cover;
 		width: 50%;
@@ -183,6 +183,8 @@
 	}
 
 	&__img {
+      width: 548px;
+      height: 548px;
 		width: 100%;
 		max-width: 548px;
 		min-width: 280px;
@@ -257,6 +259,8 @@
 
 	&__svg-picture {
 		margin-bottom: 12px;
+      width: 46px;
+      height: 46px;
 	}
 
 	&__person-name {
@@ -303,6 +307,8 @@
 	}
 
 	&__img {
+      width: 432px;
+      height: 320px;
 		border-radius: 8px;
 		max-width: 432px;
 		width: 100%;
@@ -421,7 +427,10 @@
 	}
 
 	&__img {
+      width: 664px;
+      height: 686px;
 		max-width: 664px;
+      height: auto;
 		width: 100%;
 		border-radius: 8px;
 	}
@@ -880,7 +889,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-         background-image: url('../../dist/img/hero-img.png');
+         background-image: url('../../dist/img/hero-img.jpg');
          background-position: center;
          background-size: cover;
          z-index: 1;
